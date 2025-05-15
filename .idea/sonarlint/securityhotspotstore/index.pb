@@ -5,3 +5,5 @@ N
 contracts/data-collection.clar,8/e/8e0596740b3c1cadac393db7643b0ff43faaa29f
 O
 contracts/alert-management.clar,8/6/8614a233af464fde2547e6d7f9894c68a07e2c78
+S
+#contracts/patient-verification.clar,a/5/a53a8fcc82ce2eb7cfe61ba821429022b36b1494
