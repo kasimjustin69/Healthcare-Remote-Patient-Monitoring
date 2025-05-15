@@ -1,0 +1,39 @@
+[project]
+name = 'Healthcare-Remote-Patient-Monitoring'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.alert-management]
+path = 'contracts/alert-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.data-collection]
+path = 'contracts/data-collection.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.patient-verification]
+path = 'contracts/patient-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.provider-verification]
+path = 'contracts/provider-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.registration]
+path = 'contracts/registration.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
